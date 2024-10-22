@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Activity(){
     return (
         <div>
@@ -21,9 +23,10 @@ export default function Activity(){
                                 </a>
 
                                 <div className="w-20 h-20">
-                                    <img className="rounded-full w-full h-full"
+                                    <Image className="rounded-full w-full h-full"
                                         src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
                                         alt="image description" />
+                                    
                                 </div>
                                 <h3 className="text-3xl font-light text-gray-900 dark:text-white pl-5 pt-5">
                                     Name Surname
@@ -124,7 +127,7 @@ export default function Activity(){
                                  {/* <hr className="h-px my-4 bg-[#A0FC6E] border-0"> */}
                 </div>
                 <div className="flex w-20 h-20 ml-[35%]">
-                                    <img className="rounded-full w-full h-full"
+                                    <Image className="rounded-full w-full h-full"
                                         src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
                                         alt="image description" />
                                 </div>
